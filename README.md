@@ -13,9 +13,9 @@ $python install.sh
 
 ## Build Dockerized version 
 
-$docker pull blacklabelops/virtualbox
+** Using this Docker container  :   https://hub.docker.com/r/blacklabelops/virtualbox/
 
-** https://hub.docker.com/r/blacklabelops/virtualbox/
+$docker pull blacklabelops/virtualbox
 
 $docker build -t wsinsidedocker:latest .
 
