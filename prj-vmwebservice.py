@@ -1,5 +1,15 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-15 -*-
+#
+# El siguiente Web Service  permite gestionar maquinas virtuales de VirtualBox
+# Basado en los ejemplos de curso Fundamentos de Sistemas Distribuidos
+# DS-Fall 2007 -  Docente : John Sanabria - john.sanabria@correounivalle.edu.co   
+#
+# Alumnos:  Fabio Andres Herrera - fabio.herrera@correounivalle.edu.co
+#                  Mario Castillo - mario.castillo@correounivalle.edu.co
+#
+#
+#
 # Librerias requeridas para correr aplicaciones basadas en Flask
 import os
 from flask import Flask, jsonify, make_response,  request, abort
