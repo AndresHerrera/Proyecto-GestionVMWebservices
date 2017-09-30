@@ -1,5 +1,5 @@
 # Proyecto-GestionVMWebservices
-Flask web service for handling virtual machines (VirtualBox )
+Flask web service for handling virtual machines (VirtualBox ) - Stand Alone Version and Inside a VirtualBox Inside a Docker container (Dockerized Version)
 
 git clone https://github.com/AndresHerrera/Proyecto-GestionVMWebservices.git
 
