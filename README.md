@@ -7,13 +7,27 @@ git clone https://github.com/AndresHerrera/Proyecto-GestionVMWebservices.git
 
 https://asciinema.org/a/RqNmrWZLqCgRKCx25mPD39Q8K
 
-## Install
+## Install (Stand Alone Version)
 
 $python install.sh
 
-## Run Web Service
+## Build Dockerized version 
+
+$docker pull blacklabelops/virtualbox
+
+** https://hub.docker.com/r/blacklabelops/virtualbox/
+
+$docker build -t wsinsidedocker:latest .
+
+## Run Web Service (Stand Alone)
 
 $python prj-vmwebservice.py
+
+## Run Dockerized version 
+
+$docker run --rm -p 5000:5000  -v $(pwd):/app -it --privileged=true --device /dev/vboxdrv:/dev/vboxdrv wsinsidedocker:latest
+
+
 
 ## Usage  ( Complete command list ) :
 
