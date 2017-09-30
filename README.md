@@ -5,7 +5,7 @@ git clone https://github.com/AndresHerrera/Proyecto-GestionVMWebservices.git
 
 ## Video (asciinema)
 
-https://asciinema.org/a/QLPaAvjKPNz79U4eOlCOIFHBd
+https://asciinema.org/a/RqNmrWZLqCgRKCx25mPD39Q8K
 
 ## Install
 
